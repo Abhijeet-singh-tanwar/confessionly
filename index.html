@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cute Confession Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Send Your Confession 💌</h1>
+    <input type="text" id="recipient" placeholder="Recipient's Name" />
+    <textarea id="message" placeholder="Write your confession..."></textarea>
+    
+    <label>Select a Theme:</label>
+    <select id="theme">
+      <option value="hearts">💖 Hearts</option>
+      <option value="vintage">📜 Vintage</option>
+      <option value="minimal">🌿 Minimal</option>
+    </select>
+
+    <button onclick="generateConfession()">Generate Confession Page</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
